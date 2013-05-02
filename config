@@ -1,0 +1,22 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 1
+  focus = system
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1c1c1c"
+    foreground_color = "#ffffff"
+    scrollback_lines = 10000
+    scrollbar_position = hidden
+    show_titlebar = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
+
