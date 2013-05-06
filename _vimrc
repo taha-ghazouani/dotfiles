@@ -116,3 +116,14 @@ set autoread
 set list
 set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:_
 noremap <F11> :set list!<CR>
+
+"Shortcuts to handle tabs.
+nnoremap <C-S-tab> :tabprevious<CR>
+nnoremap <C-tab>   :tabnext<CR>
+nnoremap <C-t>     :tabnew<CR>
+nnoremap <C-w>     :tabclose<CR>
+inoremap <C-S-tab> <Esc>:tabprevious<CR>i
+inoremap <C-tab>   <Esc>:tabnext<CR>i
+inoremap <C-t>     <Esc>:tabnew<CR>
+inoremap <C-w>     <Esc>:tabclose<CR>
+
