@@ -20,7 +20,7 @@ unlet s:cpo_save
 set background=dark
 set backspace=indent,eol,start
 set backup
-set guifont=Lucida_Console:h10:cANSI
+set guifont=Consolas:h10:cANSI
 set guioptions=egmrLt
 set helplang=fr
 set history=50
@@ -38,7 +38,7 @@ set smartindent
 set cindent
 set textwidth=80
 set window=67
-colors evening
+colors desert
 
 "Hilight current line
 set cursorline
@@ -121,9 +121,12 @@ noremap <F11> :set list!<CR>
 nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <C-tab>   :tabnext<CR>
 nnoremap <C-t>     :tabnew<CR>
-nnoremap <C-w>     :tabclose<CR>
+"nnoremap <C-x>     :tabclose<CR>
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
-inoremap <C-w>     <Esc>:tabclose<CR>
+"inoremap <C-x>     <Esc>:tabclose<CR>
+
+" focus follows mouse
+set mousefocus
 
